@@ -1,0 +1,152 @@
+body {
+  background-image: url("../images/ring.jpg");
+  background-size: cover;
+  opacity: 15%;
+}
+
+.title {
+  font-size: 75px;
+  color: red;
+  text-align: center;
+  font-family: 'Spectral SC', serif;
+}
+
+.characterWrapper {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#gameMessage {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Spectral SC', serif;
+  font-weight: bold;
+  color: red;
+}
+#choose-enemy-button {
+  visibility: hidden;
+}
+#restart-button {
+  visibility: hidden;
+}
+#turn-counter {
+  font-size: 150%;
+  color: red;
+}
+
+.character {
+  width: 150px;
+  margin: 5%;
+  cursor: pointer;
+  display: inline-block;
+}
+.character img {
+  border: 50%;
+  display: block;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 175px;
+
+}
+.character-name {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Spectral SC', serif;
+  font-size: 20px;
+  color: rgb(231, 255, 97);
+}
+.character-health {
+  text-align: center;
+  font-family: 'Spectral SC', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(9, 219, 44);
+}
+
+.attack {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-family: 'Spectral SC', serif;
+  font-size: 35px;
+  color: red;
+}
+.action {
+  margin: 15px 0px;
+}
+#attack-button{
+	visibility: hidden;
+}
+.btn-lg {
+	background: rgba(128, 0, 128, 0.924);
+  color: white;
+  font-family: 'Spectral SC', serif;
+}
+
+#selected-character {
+  font-family: 'Spectral SC', serif;
+  font-size: 35px;
+  color: green;
+}
+.enemy {
+	width: 153px;
+	margin: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: blue;
+  color: red;
+  float: left;
+  
+}
+#attacker {
+  padding: 5px;
+  color: red;
+}
+.target-enemy {
+  background-color: rgb(111, 78, 201);
+  color: white;
+}
+
+#available-to-attack-section {
+  float: right;
+  font-family: 'Spectral SC', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ff8a31;
+}
+#available-to-attack-section img {
+	height: 100px;
+}
+
+#defender {
+  width: 190px;
+  height: 160px;
+  font-family: 'Spectral SC', serif;
+  font-size: 20px;
+  color: red;
+}*/
+#defender-name {
+  text-align: center;
+  color: red;
+}
+#defender-image {
+  padding: 0px 16px;
+  margin: 3px 0px;
+}
+#defender-health {
+  text-align: center;
+  color: red;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .character {
+    display: block;
+  height: 150px;    
+  }
+  #gameMessage {
+  font-size: 12px;
+  }
+}
